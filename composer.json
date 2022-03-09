@@ -1,0 +1,24 @@
+{
+    "name": "javier/app-salon_php_mvc_js_sass",
+    "description": "Proyecto",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Javier\\AppSalonPhpMvcJsSass\\": "src/",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models",
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "javi",
+            "email": "javi@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
